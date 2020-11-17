@@ -5,9 +5,10 @@ I am not using the most recent NVidia Driver because they are very unstable when
 
 Laptop config:
 
-- Dell Precision 15' 540 128 ECC RAM Xeon E-2286M@2.4GHz
-- NVIDIA Quadro RX 3000 Driver Version 26.21.14.4283
-  Cannot use Cuda 11 Toolit because Driver is too old
+- Dell Precision 15' 7540 128 ECC RAM Xeon E-2286M@2.4GHz
+- NVIDIA Quadro RX 3000 Driver Version 26.21.14.4283 (442.83)
+  Cannot use Cuda 11 Toolit because Driver is too old. 
+  Cuda 10.2 should be usable, but not compilable.
 - NVidia Driver is form Dell which is very stable, but not to most recent one
 
 
