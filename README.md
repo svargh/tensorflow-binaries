@@ -130,7 +130,7 @@ Reason:  https://github.com/tensorflow/tensorflow/issues/40859 -> variables not 
 Solution: Use Cuda 10.1 on windows
 
 
-- Windows: buildcc error: 
+- TF2.3 Windows: buildcc error: 
 NOT WORKING: pip install numpy<1.18.5
 NOT WORKING:  pip install numpy==1.18.0
 Works: modify  tensorflow\python\lib\core\bfloat16.cc 
