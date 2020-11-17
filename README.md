@@ -59,6 +59,7 @@ python ..\gpu2.py
 - Install NVida software as stated above - except the NVIDIA hardware drivers
 
 ## Create local isolated python enviroment
+```
 
 set PDIR=c:\dev\python\Python37
 set PATH=%PDIR%;%PDIR%\Scripts;%PATH%
@@ -141,4 +142,4 @@ ModuleNotFoundError: No module named 'keras_preprocessing'
 pip install keras_preprocessing
 pip install numpy==1.18.0
 
-
+```
