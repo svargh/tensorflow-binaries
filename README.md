@@ -1,7 +1,8 @@
 # tensorflow-binaries
 Prebuilt Tensorflow binaries for my laptop with this configuration.
-
-I am not using the most recent NVidia Driver because they are very unstable when doing docking/undocking/sleeping/resuming.
+I am not using the most recent NVidia Driver because they are very unstable when doing docking/undocking/sleeping/resuming actions.
+The older, but stable driver supports only CUDA up to 10.2. 
+For us only 10.1 can be compiled sucessfully against Tensorflow 2.3 and Tensorflow 2.4.
 
 # Hardware config
 
