@@ -33,8 +33,29 @@ On Dev VirtualMachine VMWare:
 - MSys64 Version https://repo.msys2.org/distrib/x86_64/msys2-x86_64-20200903.exe
 - 300GB Disk space for building TF2.3 and T.4
 
+# How to use the libraries
+
+
 # How the binaries have been built - Build Process in VM:
 
+Examples Steps for Tensorflow 2.4 whl binary:
+```
+set PDIR=c:\dev\python\Python37
+set PATH=%PDIR%;%PDIR%\Scripts;%PATH%
+cd c:\dev\tensorflow
+
+--- Do once ---
+mkdir tf2.4
+cd tf2.4
+pip install virtualenv
+virtualenv venv
+--- ---
+
+venv\Scripts\activate
+pip install e:\ShareData2\tensorflow-binaries\tensorflow-2.4.0rc2-cp37-cp37m-win_amd64.whl
+python ..\gpu.py
+python ..\gpu2.py
+```
 
 ## Create local isolated python enviroment
 
